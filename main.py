@@ -36,5 +36,5 @@ def SendMessage(to_adress):
     except smtplib.SMTPException:
         print("Не удалось отправить письмо, что-то пошло не так")
 
-to_adress = input("Введите адрес получателя: ")
+to_adress = "tr3shk0@yandex.ru"
 SendMessage(to_adress)
